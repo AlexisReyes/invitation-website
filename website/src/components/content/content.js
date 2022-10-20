@@ -5,7 +5,7 @@ import Separator from '../../images/separador-fecha.svg'
 import DateEvent from '../../images/fecha.svg'
 import Church from '../../images/misa.svg'
 import GlassOfWine from '../../images/recepcion.svg'
-import Leaves from '../../images/hojas.svg'
+// import Leaves from '../../images/hojas.svg'
 import Present from '../../images/regalo.svg'
 import Envelope from '../../images/sobre.svg'
 
@@ -33,7 +33,7 @@ const Content = () => (
             <span className="text-center">Parroquia de Nuestra Señora del Rosario</span>
             <span className="text-center">Domingo 20 de Noviembre a las 3:00 PM</span>
             <span className="md:text-lg text-sm text-center">Antonio Norzagaray SN, Centro, 81000 Guasave, Sin.</span>
-            <a className="bg-gray mt-2 p-2 text-white rounded-none hover:rounded" target="_blank" href={links.ceremonyLocation}>Ubicación</a>
+            <a className="bg-gray mt-2 p-2 text-white rounded-none hover:rounded" target="_blank" rel="noreferrer" href={links.ceremonyLocation}>Ubicación</a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Content = () => (
             <span className="text-center">Real del Alva</span>
             <span className="text-center">Domingo 20 de Noviembre a las 5:00 PM</span>
             <span className="md:text-lg text-sm text-center">Justo Sierra 335, Col. Ejidal, 81020 Guasave, Sin.</span>
-            <a className="bg-gray mt-2 p-2 text-white rounded-none hover:rounded" target="_blank" href={links.partyLocation}>Ubicación</a>
+            <a className="bg-gray mt-2 p-2 text-white rounded-none hover:rounded" target="_blank" rel="noreferrer" href={links.partyLocation}>Ubicación</a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ const Content = () => (
         <div className="flex flex-col items-center justify-center font-montserrat-regular md:text-xl text-lg">
           <span className="text-center">Nos encantaría compartir este día contigo.</span>
           <span className="text-center">Por favor ayudanos a confirmar tu asistencia.</span>
-          <a className="bg-gray my-2 p-2 text-white rounded-none hover:rounded" target="_blank" href={links.confirmMessage}>Confirmar</a>
+          <a className="bg-gray my-2 p-2 text-white rounded-none hover:rounded" target="_blank" rel="noreferrer" href={links.confirmMessage}>Confirmar</a>
           <span className="text-center">Es muy importante que confirmes tu asistencia antes del día 15 de Nov.</span>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Content = () => (
           <span className="text-center">El mejor regalo es tu presencia, pero si quieres obsequiarle algo a nuestra pequeña te damos algunas opciones.</span>
           <Present className="my-2"/>
           <p>Liverpool: 51047977</p>
-          <a className="bg-gray my-2 p-2 text-white rounded-none hover:rounded" target="_blank" href={links.giftTable}>Da click para verla</a>
+          <a className="bg-gray my-2 p-2 text-white rounded-none hover:rounded" target="_blank" rel="noreferrer" href={links.giftTable}>Da click para verla</a>
           <br/>
           <Envelope className="my-2"/>
           <span className="text-center">En recepción tendremos sobres por si te gustaría hacer un regalo en efectivo.</span>
