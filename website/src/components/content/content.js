@@ -1,11 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Separator from '../../images/separador-fecha.svg'
 import DateEvent from '../../images/fecha.svg'
 import Church from '../../images/misa.svg'
 import GlassOfWine from '../../images/recepcion.svg'
-// import Leaves from '../../images/hojas.svg'
 import Present from '../../images/regalo.svg'
 import Envelope from '../../images/sobre.svg'
 
@@ -51,7 +50,12 @@ const Content = () => (
       </div>
     </div>
     <div className="flex flex-col items-center justify-center inline">
-      {/*<Leaves style={{ height: 350, display: "block"}} />*/}
+      <StaticImage
+        loading="lazy"
+        placeholder="tracedSVG"
+        alt="leaves image"
+        src="../../images/ojita.png"
+      />
     </div>
     <div className="flex flex-col md:mx-32">
       <div className="flex flex-col items-center justify-center my-8">

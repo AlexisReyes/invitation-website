@@ -4,7 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 const Header = () => (
   <div className="w-full">
       <StaticImage
-        loading="blur"
+        loading="eager"
+        layout="fullWidth"
+        placeholder="tracedSVG"
         alt="Header Image"
         src="../../images/alicia-logo.png"
       />
