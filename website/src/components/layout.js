@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="flex flex-col w-full px-24 items-center justify-center">
+    <div className="flex flex-col w-full md:px-24 px-4 items-center justify-center">
       <Header siteTitle={data.site.siteMetadata?.title || ``} />
       <main>{children}</main>
       <Footer/>
